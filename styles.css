@@ -1,0 +1,40 @@
+a {
+	text-decoration: none;
+	color: #686868; 
+	font-family: arial, sans-serif;
+	font-size: small;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.top-nav li {
+	display: inline;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.bot-left-nav li {
+	display: inline;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.bot-right-nav li {
+	display: inline;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+#sign-in {
+	padding: 7px 12px 7px 12px;
+	background-color: #3399ff;
+	border-radius: 4px;
+}
+
+.top-nav li a span {
+	font-weight: bold;
+	color: white;
+	text-decoration: none;
+}
