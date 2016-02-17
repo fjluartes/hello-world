@@ -10,15 +10,12 @@ a {
 	padding-left: 5px;
 	padding-right: 5px;
 }
-
 .bot-left-nav li {
-	display: inline;
 	padding-left: 5px;
 	padding-right: 5px;
 }
 
 .bot-right-nav li {
-	display: inline;
 	padding-left: 5px;
 	padding-right: 5px;
 }
@@ -33,4 +30,33 @@ a {
 	font-weight: bold;
 	color: white;
 	text-decoration: none;
+}
+
+.top-nav {
+	float: right;
+	margin-right: 10px;
+}
+
+.bot-nav li {
+	display: inline;
+}
+
+.bot-left-nav {
+	float: left;
+	margin-left: 10+px;
+}
+
+.bot-right-nav {
+	float: right;
+	margin-right: 10px;
+}
+
+.logo {
+	text-align: center;
+}
+
+.logo img {
+	width: 500px;
+	height: 200px;
+	margin: auto;
 }
