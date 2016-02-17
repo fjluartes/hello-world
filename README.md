@@ -1,2 +1,4 @@
 # hello-world
-for practice projects
+Initial repository for practice projects 
+- google-homepage
+- htmlDog
