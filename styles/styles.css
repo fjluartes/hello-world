@@ -62,7 +62,11 @@ a {
 
 .logo {
 	text-align: center;
-	padding: 7px 12px 7px 12px;
+}
+
+.logo img {
+	margin-top: 200px;
+	margin-left: 250px;
 }
 
 form .search {
