@@ -2,11 +2,11 @@
 <html>
 	<head>
 		<title>Google</title>
-		<link href="styles/styles.css" rel="stylesheet">
+		<link href="styles.css" rel="stylesheet">
 	</head>
 
 	<body>
-		<div class="top-nav">
+		<div class="header">
 			<ul>
 				<li><a href="https://www.google.com.ph/mail">Gmail</a></li>
 				<li><a href="https://www.google.com.ph/imghp">Images</a></li>
@@ -17,11 +17,19 @@
 
 		<div class="logo">
 			<img src="images/google-logo-2015.png" alt="google-logo">
-			<p id="search-bar"><input type="text"></p>
+
+			<form>
+				<input type="text" name="search-bar">
+			</form>
+
+			<form class="search">
+				<input type="submit" value="Google Search">
+				<input type="submit" value="I'm feeling lucky">
+			</form>
 		</div>
 
-		<div class="bot-nav">
-			<div class="bot-left-nav">
+		<div class="footer">
+			<div class="footer-left">
 				<ul>
 					<li><a href="https://www.google.com.ph/ads">Advertising</a></li>
 					<li><a href="https://www.google.com.ph/services">Business</a></li>
@@ -29,7 +37,7 @@
 				</ul>
 			</div>
 
-			<div class="bot-right-nav">
+			<div class="footer-right">
 				<ul>
 					<li><a href="https://www.google.com.ph/policies/privacy">Privacy</a></li>
 					<li><a href="https://www.google.com.ph/policies/terms">Terms</a></li>
