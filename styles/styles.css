@@ -1,23 +1,26 @@
 a {
-	text-decoration: none;
-	color: #686868; 
 	font-family: arial, sans-serif;
 	font-size: small;
+	text-decoration: none;
+	color: #686868; 
 }
 
-.top-nav li {
+.header li {
 	display: inline;
-	padding-left: 5px;
-	padding-right: 5px;
-}
-.bot-left-nav li {
-	padding-left: 5px;
-	padding-right: 5px;
+	padding-left: 8px;
+	padding-right: 8px;
 }
 
-.bot-right-nav li {
-	padding-left: 5px;
-	padding-right: 5px;
+.footer-left li {
+	display: inline;
+	padding-left: 8px;
+	padding-right: 8px;
+}
+
+.footer-right li {
+	display: inline;
+	padding-left: 8px;
+	padding-right: 8px;
 }
 
 #sign-in {
@@ -26,32 +29,42 @@ a {
 	border-radius: 4px;
 }
 
-.top-nav li a span {
+.header li a span {
 	font-weight: bold;
 	color: white;
 	text-decoration: none;
 }
 
-.top-nav {
+.header {
 	float: right;
-	margin-right: 10px;
+	top: 0;
+	margin-right: 20px;
 }
 
-.bot-nav li {
+.footer {
 	display: inline;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	border: 1px solid #e6e6e6;
+	background-color: #f2f2f2;
 }
 
-.bot-left-nav {
+.footer-left {
 	float: left;
-	margin-left: 10+px;
+	margin-left: 0;
 }
 
-.bot-right-nav {
+.footer-right {
 	float: right;
-	margin-right: 10px;
+	margin-right: 20px;
 }
 
 .logo {
 	text-align: center;
-	margin: auto;
+	padding: 7px 12px 7px 12px;
+}
+
+form .search {
+	display: inline;
 }
